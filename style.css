@@ -106,3 +106,53 @@
 .margin{
      margin-top: 90px;
 }
+/* --------footer-section---------- */
+/* --------footer-section---------- */
+.footer-section{
+     padding-top:100px;
+     background:#0b2130;
+}
+.footer-section img{
+     width: 170px;
+}
+.footer-section p{
+     color:white;
+     font-size: 20px;
+     line-height: 40px;
+     letter-spacing: 1px;
+}
+.footer-item{
+     width: 90%;
+}
+.footer-section{
+     color:white;
+}
+.footer-section ul li b{
+     font-size: 25px;
+     font-weight: 400;
+     margin-left: 10px;
+     color:white;
+}
+.footer-section ul{
+     list-style: none;
+}
+.footer-section ul li span{
+     display: inline-block;
+     width: 3px;
+     height: 30px;
+     background-color: rgb(0, 64, 255);
+     position: relative;
+     top:6px;
+}
+.footer-section ul li{
+     font-size: 18px;
+     font-weight: 400;
+     color:rgb(209, 216, 226);
+     line-height: 50px;
+}
+.footer-icon{
+     
+}
+.footer-section hr{
+     height: 2px;
+}
