@@ -3,15 +3,15 @@
      padding: 100px 0px;
 }
 .client-section b{
-     font-size: 25px;
+     font-size: 20px;
      font-weight: 400;
-     color:rgba(3, 27, 245, 0.958)
+     color:rgba(3, 27, 245, 0.958);
 }
 .client-section h1{
      font-weight: 700;
      margin:0px 0;
-     line-height: 65px;
-     font-size: 50px;
+     line-height: 60px;
+     font-size: 40px;
      letter-spacing: 1px;
 }
 .client-section hr{
@@ -21,10 +21,11 @@
      opacity: 1;
 }
 .client-section p{
-     font-size: 21px;
-     font-weight: 500;
+     font-size: 18px;
+     font-weight: 400;
      letter-spacing: 0px;
      color: rgb(129, 129, 129);
+     line-height: 30px;
 }
 .right-item img{
      width: 100%;
@@ -37,10 +38,71 @@
      box-shadow: 0px 0px 1px 0px rgb(30, 29, 29);
      line-height: 180px;
      opacity: .7;
-     transition: 1s;
+     
 }
 .right-item:hover{
-     background-color: rgb(174 187 198 / 86%);
+     background-color: rgba(234, 245, 255, 0.86);
      opacity: 1;
      cursor: pointer;
+     transition: 1.3s;
+}
+.blog-section{
+     padding: 100px 0px;
+}
+.blog-section b{
+     font-size: 20px;
+     font-weight: 400;
+     color:rgba(3, 27, 245, 0.958);
+}
+.blog-section h1{
+     font-weight: 700;
+     margin:0px 0;
+     line-height: 60px;
+     font-size: 40px;
+     letter-spacing: 1px;
+}
+.blog-section hr{
+     width: 60px;
+     height: 2.7px;
+     color:rgba(3, 27, 245, 0.958);
+     opacity: 1;
+}
+.bolg-item  p{
+     font-size: 21px;
+     font-weight: 400;
+     letter-spacing: 0px;
+     color: rgb(129, 129, 129);
+     line-height: 30px;
+}
+.bolg-item{
+     width: 50%;
+}
+.card-item{
+     position: relative;
+}
+.card-item h4{
+     font-weight: 700;
+}
+.blog-card p{
+     font-size: 18px !important;
+     font-weight: 400;
+     color: rgb(129, 129, 129);
+}
+.blog-card button img{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+
+}
+.blog-card button{
+     border-radius: 20px;
+     font-size: 15px;
+     padding: 5px;
+     padding-right: 10px;
+     position: absolute;
+     bottom:20px;
+     right: 20px;
+}
+.margin{
+     margin-top: 90px;
 }
